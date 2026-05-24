@@ -14,22 +14,9 @@ Instead of dealing with confusing p-values and frequentist statistics, this tool
 
 ---
 
-## 🚀 Two Ways to Run the Toolkit
+## 🚀 How to Run the Toolkit
 
-Choose the option that fits your workflow best. Both interfaces are fully interactive.
-
-### Option A: Google Colab (Zero Setup - Recommended)
-Run the toolkit in the cloud in under 60 seconds with no local installation.
-
-1. **Open the Notebook in Colab:**
-   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1GwC2Z1jYcdkw-ci1Mdy3EVkmptg8uH5-?usp=sharing)
-2. **Run All Cells:** Go to `Runtime` -> `Run all` (or press `Ctrl + F9` / `Cmd + F9`).
-3. **Upload & Configure:** When prompted in the **Control Panel**, upload your Excel data file. Adjust the sliders for prior selection and risk tolerance, and the report will generate automatically.
-
----
-
-### Option B: Local Jupyter Notebook
-If you prefer to run the analysis locally on your machine.
+The toolkit runs as a fully interactive local Jupyter Notebook.
 
 1. **Clone the repository:**
    ```bash
@@ -44,7 +31,7 @@ If you prefer to run the analysis locally on your machine.
    ```bash
    jupyter lab "Bayesian A-B Test - Notebook.ipynb"
    ```
-4. **Run the Notebook:** Execute the cells from top to bottom. Use the **Control Panel** in the interface to upload your data and adjust settings.
+4. **Run the Notebook:** Execute the cells from top to bottom. Use the **Control Panel** in the interactive UI to upload your data and adjust settings.
 
 ---
 
