@@ -1,7 +1,7 @@
 # Planejamento de Teste A/B: Campanha Exclusiva via WhatsApp
 
 ## 1. Contexto e Objetivo
-**Empresa:** Maison Élégance (Loja de roupas de luxo)
+**Empresa:** Marca de Moda Premium (Fictícia / Exemplo)
 **Canal de Vendas:** WhatsApp (Atendimento via Personal Shoppers)
 **Cenário:** Estamos nos preparando para a campanha de Lançamento da Coleção de Inverno. O WhatsApp é o nosso canal mais valioso, onde mantemos relacionamento direto com clientes de alto padrão.
 **Objetivo do Teste:** Descobrir qual formato de mensagem ativa (outbound) gera a maior taxa de conversão (respostas positivas demonstrando interesse de compra ou agendamento de visita à loja física/envio de mala) ao ser disparada para a nossa base de contatos.
@@ -55,7 +55,7 @@ O teste será dividido em 4 variantes (A, B, C e D), enviadas para segmentos ale
 
 Dado o contexto competitivo e a sazonalidade de fim de ano, adaptamos este mesmo experimento A/B para uma campanha estratégica de **Black Friday VIP Private Sale**. 
 
-* **Abordagem de Luxo na Black Friday:** Em vez de realizar descontos agressivos na base de dados (o que prejudicaria o posicionamento de alto padrão da Maison Élégance), a campanha de Black Friday será baseada em **Acesso Antecipado Exclusivo (Early Access)** a lotes ultra-limitados da nova coleção e agendamento de experiências exclusivas de atendimento antes da abertura oficial ao público geral.
+* **Abordagem de Luxo na Black Friday:** Em vez de realizar descontos agressivos na base de dados (o que prejudicaria o posicionamento de alto padrão da marca), a campanha de Black Friday será baseada em **Acesso Antecipado Exclusivo (Early Access)** a lotes ultra-limitados da nova coleção e agendamento de experiências exclusivas de atendimento antes da abertura oficial ao público geral.
 * **Formatos Utilizados:** Manteremos exatamente as mesmas 4 variantes originais (A, B, C e D), focando o apelo persuasivo na exclusividade e na escassez dos estoques especiais preparados para o fim de ano.
 
 ---
@@ -92,7 +92,7 @@ Para determinar a variante vencedora da campanha de Black Friday de forma totalm
 * **Probabilidade de Ser a Melhor ($P_{best}$):** Mínimo de **85%**. A variante escolhida deve apresentar alta probabilidade de superar as demais, mitigando ruídos e flutuações amostrais comuns em períodos sazonais de alta volatilidade como a Black Friday.
 * **Perda Esperada / Risco de Escolha ($Expected\ Loss$):** Limite máximo tolerado de **1%**. Se selecionarmos a variante vencedora sugerida pelo algoritmo, o risco de perda na taxa de conversão média projetada deve ser inferior a 1% relativo em comparação a qualquer outra variante.
 * **Priors Beta (Priors de Entrada):**
-  * *Prior Histórico:* Utilização de um prior informado $Beta(47, 953)$ baseado na taxa de conversão de atendimento de 4,7% observada nas coleções anteriores de inverno da Maison Élégance.
+  * *Prior Histórico:* Utilização de um prior informado $Beta(47, 953)$ baseado na taxa de conversão de atendimento de 4,7% observada nas coleções anteriores de inverno da marca.
   * *Prior Neutro:* Caso o comportamento de compra na Black Friday seja considerado imprevisível em relação ao comportamento padrão do ano, o painel do toolkit será alternado para a opção de prior não-informativo (uniforme) $Beta(1, 1)$.
 
 ---
