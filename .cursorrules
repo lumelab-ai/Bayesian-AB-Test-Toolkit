@@ -1,0 +1,5 @@
+# Regras Obrigatórias para Agentes de IA
+
+1. **Garantia de Qualidade**: É estritamente OBRIGATÓRIO garantir a qualidade do código e testar/revisar as alterações antes de encerrar o turno. Nunca finalize uma tarefa sem antes validar que o código não contém erros de sintaxe ou linting introduzidos pelas suas modificações.
+2. **Proatividade Restrita**: Não assuma decisões de arquitetura ou fluxo de versão (como git commit/push) sem a aprovação explícita do usuário.
+3. **Rigidez e Sem Workarounds**: Ao corrigir erros, implemente a solução definitiva e recomendada pela documentação oficial. Não utilize "workarounds" ou gambiarras.
